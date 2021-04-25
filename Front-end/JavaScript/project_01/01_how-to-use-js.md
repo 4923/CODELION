@@ -1,8 +1,8 @@
-### js를 사용하는 방법
+## js를 사용하는 방법
 1. HTML의 `<script/>`
 2. `.js` 파일
 
-### HTML의 JS
+## HTML의 JS
 1. 위치: 어디에 작성해도 상관없다.
     - 하지만 위에서 아래로 읽는 HTML 특성 상 모든 html 내용을 불러온 후에 작성한다.
         - `</body>` 바로 위
@@ -41,7 +41,7 @@
     - write의 인자로 원하는 말을 넘기면 그 말이 브라우저에 표시되는 기능.
     - python의 print와 유사하나 브라우저에 표시된다는 점은 다르다.
 
-### `.JS`
+## `.JS`
 
 ```js
 documnet.write("자바스크립트 파일에서 불러온 명령")
@@ -54,4 +54,10 @@ documnet.write("자바스크립트 파일에서 불러온 명령")
 <script src="file path"></script>
 ```
 
-내용은 동일하지만 별도의 파일로 관리하는 셈이다. 이 때 js 파일명은 camelCase를 사용한다.
+내용은 동일하지만 별도의 파일로 관리하는 셈이다. 이 때 js 파일명은 **camelCase**를 사용한다.
+
+## Done!
+![firstScript](https://user-images.githubusercontent.com/60145951/152649720-7d343b40-ed64-4cf3-9b51-42ab52f9d829.png)
+
+`index.html`를 preview한 결과다. 
+html이 그렇듯이 `<br>` 로 줄개행을 하지 않으면 다른 태그의 내용도 한 줄에 작성된다.
