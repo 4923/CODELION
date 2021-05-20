@@ -30,4 +30,6 @@ if __name__ == "__main__":
 |새로고침 할 때마다 출력| 함수화, return | X |
 
 ## projects 1: contents
-- [JS의 난수 생성 방법]()
+- [JS의 난수 생성 방법](https://github.com/4923/Web/blob/master/Front-end/JavaScript/project_01/04_lottery-random.md)
+    - `Math.random();` => 0이상 1 미만의 난수 생성
+    - `parseInt();` => 실수형을 정수형으로
