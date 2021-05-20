@@ -20,3 +20,14 @@ if __name__ == "__main__":
 ```
 
 익숙한 파이썬 문법을 결과물로 떠올려두고 JS 문법에 대응시켜가며 배워보자.
+
+## breakdown steps
+로또번호 추첨기의 주요 기능은 아래와 같다.
+|기능|Py|JS|
+|:-|:-|:-|
+|1부터 45까지의 자연수가 6개| [ ___(1, 45) for _ in range(6)|
+|무작위하게| random.randint | parseInt(Math.random()*45 +1) |
+|새로고침 할 때마다 출력| 함수화, return | X |
+
+## projects 1: contents
+- [JS의 난수 생성 방법]()
