@@ -9,9 +9,17 @@
 <body>
     <h1>HTML document for testing JS</h1>
     <script>
-        var randomNumber = Math.random();
-        var rottoNumber = parseInt(randomNumber*45 +1);
-        document.write(rottoNumber);
+        // variables
+        var lotto = new Array();
+        
+        // for loop
+        for (var i=0; i<6; i++){
+            var randomNumber = Math.random();
+            lotto.push(parseInt(randomNumber*45 +1))
+        }
+
+        // check
+        alert(lotto);
     </script>
 </body>
 </html>
