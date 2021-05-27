@@ -36,6 +36,9 @@ document.write(lotto[1]);    // index는 0부터 시작하므로 1이 아닌 2�
 
 - 기타
     - 요소 전체 출력: `alert(lotto);`
+        |code|alert array|
+        |:-:|:-:|
+        |![alert code](https://user-images.githubusercontent.com/60145951/152656050-05092c3c-d7d3-46e7-802f-d7dad8b07dbb.png)|![alert array](https://user-images.githubusercontent.com/60145951/152656015-d2a628ed-4d23-4746-bd3b-f0324e13059c.png)|
     - 길이: `alert(lotto.length);`
     - trailing: array의 마지막 요소는 쉼표로 끝날 수 있다.
 
