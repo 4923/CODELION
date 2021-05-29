@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML playground</title>
+    <title>LotteryNumberGenerator</title>
 </head>
 <body>
-    <h1>HTML document for testing JS</h1>
+    <h1>Your Lottery number is ...</h1>
     <script>
         // variables
-        var lotto = new Array();
+        var lottoArray = new Array();
         
         // for loop
         for (var i=0; i<6; i++){
-            var randomNumber = Math.random();
-            lotto.push(parseInt(randomNumber*45 +1))
+            var lottoNumber = parseInt(Math.random()*45 +1);
+            if (lottoArray.indexOf(lottoNumber != -1)){
+                lottoArray.push(lottoNumber);
+            }
         }
 
         // check
-        alert(lotto);
+        document.write(lottoArray);
     </script>
 </body>
 </html>
