@@ -15,7 +15,8 @@
         // for loop
         for (var i=0; i<6; i++){
             var lottoNumber = parseInt(Math.random()*45 +1);
-            if (lottoArray.indexOf(lottoNumber != -1)){
+            // if number is not duplicated
+            if (lottoArray.indexOf(lottoNumber == -1)){
                 lottoArray.push(lottoNumber);
             }
         }
