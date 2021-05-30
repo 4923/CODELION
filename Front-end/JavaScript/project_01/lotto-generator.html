@@ -12,10 +12,10 @@
         // variables
         var lottoArray = new Array();
         
-        // for loop
-        for (var i=0; i<6; i++){
+        // while loop: during the length of the array is 6 or less.
+        while (lottoArray.length < 6){
             var lottoNumber = parseInt(Math.random()*45 +1);
-            // if number is not duplicated
+            // if number is not duplicated, push it into array
             if (lottoArray.indexOf(lottoNumber == -1)){
                 lottoArray.push(lottoNumber);
             }
