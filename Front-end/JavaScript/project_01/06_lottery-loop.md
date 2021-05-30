@@ -31,6 +31,7 @@ while (lottoArray.length < 6){
     // 생략
 }
 ```
+![while loop](https://user-images.githubusercontent.com/60145951/152657532-4563bd00-38f1-45c1-82f2-009810d417eb.png)
 
 - 배열의 길이는 어떻게 확인할까?: `.length`
     - [참고: project_01/JS의 배열](https://github.com/4923/Web/blob/master/Front-end/JavaScript/project_01/05_lottery-array.md)
