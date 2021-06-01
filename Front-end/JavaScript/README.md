@@ -6,10 +6,10 @@
 3. 큰 커뮤니티와 다양한 library
 
 ### Projects
-- [Javascript로 만드는 '로또 번호 추첨기'](https://github.com/4923/Web/tree/master/Front-end/JavaScript/project_01)
-- [Javascript로 만드는 '자소서 글자수 계산기'](https://github.com/4923/Web/tree/master/Front-end/JavaScript/project_02)
-- [Javascript로 만드는 '미니 스타크래프트'](https://github.com/4923/Web/tree/master/Front-end/JavaScript/project_03)
-- [Javascript로 만드는 '기념일 계산기'](https://github.com/4923/Web/tree/master/Front-end/JavaScript/project_04)
+- [x] [Javascript로 만드는 '로또 번호 추첨기'](https://github.com/4923/Web/tree/master/Front-end/JavaScript/project_01)
+- [ ] [Javascript로 만드는 '자소서 글자수 계산기'](https://github.com/4923/Web/tree/master/Front-end/JavaScript/project_02)
+- [ ] [Javascript로 만드는 '미니 스타크래프트'](https://github.com/4923/Web/tree/master/Front-end/JavaScript/project_03)
+- [ ] [Javascript로 만드는 '기념일 계산기'](https://github.com/4923/Web/tree/master/Front-end/JavaScript/project_04)
 
 ### Deployment
 1. Github repo 생성
