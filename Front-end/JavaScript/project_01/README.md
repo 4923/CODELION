@@ -4,6 +4,8 @@
 
 ### Done! [🎲 Your lottery number generator](https://github.com/4923/Web/blob/master/Front-end/JavaScript/project_01/lotto-generator.html)
 
+![lotto generator final](https://user-images.githubusercontent.com/60145951/152658035-b51fdc65-070d-425c-b16b-b9e2b75fc09e.png)
+
 <br>
 
 ```python
