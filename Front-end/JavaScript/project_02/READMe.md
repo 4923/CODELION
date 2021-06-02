@@ -15,6 +15,8 @@ def main():
     return
 
 if __name__ == "__main__":
+    # 글자를 입력할 때 마다 글자 수를 계산하여 출력
+    # 최대 글자 수를 초과할 경우 더 입력되지 않도록 제한
     main()
 ```
 
@@ -24,6 +26,8 @@ if __name__ == "__main__":
 자소서 글자수 계산기의 주요 기능은 아래와 같다.
 |기능|Py|JS|
 |:-|:-|:-|
+|글자 수 계산| .count(string) |
+|최대 글자 수 초과시 입력 제한| condition statement |
 
 
 ## projects 2: contents
