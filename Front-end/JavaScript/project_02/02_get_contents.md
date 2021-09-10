@@ -21,3 +21,18 @@
     - browser가 아니라 console에 출력하려면 해당 명령어를 사용한다.
     - 어떻게 확인하지?: 브라우저 `f12`로 열 수 있는 개발자도구의 console 탭에서 확인 가능
         ![console.log](https://user-images.githubusercontent.com/60145951/152682244-95af39c5-e13d-4c27-9d94-6ce96947ba27.png)
+
+<br><hr><br>
+
+### [Optional] #1 읽어오는 태그들의 종류
+> 목표를 명확하게 하자!
+- 가져오고 싶은 태그의 종류에 따라 사용하는 명령이 달라진다.
+    1. `.value`
+        - `input` 같은 **form** 요소의 값을 가져온다.
+    2. `.textContent`
+        - input 외 `div` 나 `span` 요소 안의 내용(text)를 읽고 싶을 때 사용한다.
+        - 객체 안의 값을 변경할 때 사용
+            - 그럼 `.value`는??? 변경을 못해???
+- `.innerHTML` vs ` .innerText` vs `.textContent`
+
+- [참고: velog/Javascript: value vs textContent, innerHTML, innerText](https://velog.io/@minjae-mj/Javascript-value-vs-textContent-innerHTML-innerText)
