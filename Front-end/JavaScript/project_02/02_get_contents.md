@@ -36,3 +36,15 @@
 - `.innerHTML` vs ` .innerText` vs `.textContent`
 
 - [참고: velog/Javascript: value vs textContent, innerHTML, innerText](https://velog.io/@minjae-mj/Javascript-value-vs-textContent-innerHTML-innerText)
+
+### [Optional] #2 왜 console에 출력하지?
+> console pannel에서는 에러를 확인할 수 있다!
+개발자 도구를 좀 자주 써봤으면 의문을 가지지 않았을 텐데...  
+윈도우 기준 `f12`로 개발자 도구를 연 후 `esc`를 입력하면 하단에 콘솔 창이 열린다.  
+콘솔 창에 명령어를 입력하고 `enter`로 실행하는 과정을 거치기 때문에 `console`에 실행 결과를 기록하는 `log` 명령어가 생겼다.  
+- 덤으로, python에서 return 값에 아무것도 주지 않으면 `None`을 반환하는데 JS가 아무것도 반환하지 않으면 `undefined`가 출력된다.
+    ![return](https://user-images.githubusercontent.com/60145951/152685612-1f636b56-e68b-4c28-bec4-647758d27463.png)
+
+- 참고
+    - [코어 자바스크립트/소개/개발자 콘솔](https://ko.javascript.info/devtools)
+    - [코어 자바스크립트/코드 품질/Chrome으로 디버깅하기](https://ko.javascript.info/debugging-chrome)
