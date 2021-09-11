@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML 이 다음과 같다고 가정할 때,  -->
+    <div id="statement">
+        Keep Calm and          Drink <strong>Coffee</strong>
+        <span style="display:none">Sometimes, Tea</span>
+    </div>
+
+    <script>
+    // JavaScript
+    const statement = document.querySelector('#statement');
+
+    // innerHTML
+    statement.innerHTML; // <div id="statement">Keep Calm and          Drink <strong>Coffee</strong><span style="display:none">Sometimes, Tea</span></div>
+
+    // innerText
+    statement.innerText; // Keep Calm and Drink Coffee
+
+    // textContent
+    statement.textContent; // Keep Calm and          Drink CofeeSometimes, Tea
+    </script>
+</body>
+</html>
