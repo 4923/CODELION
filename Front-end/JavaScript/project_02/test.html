@@ -2,16 +2,13 @@
     <head></head>
     <body>
         <h1>자기소개</h1>
-        <!-- 이 부분! -->
-        <textarea id='jasoseol'>
-            먹고 사는건 원래 힘듭니다.
-        </textarea>
+        <!-- 이 부분! form-control: bootstrap tag로, textarea나 input에 사용자 정의 스타일을 입힌다. -->
+        <textarea class="form-control" rows="3" id='jasoseol'>먹고 사는건 원래 힘듭니다.</textarea>
+        <span id="count">(0/200)</span>
 
         <script>
             var content = document.getElementById('jasoseol').value;
-            console.log(content)
-            var content2 = document.getElementById('jasoseol').innerHTML;
-            console.log(content2)
+            document.getElementById('count').innerHTML = '(' + content.length + '/200)';
         </script>
     </body>
 </html>
