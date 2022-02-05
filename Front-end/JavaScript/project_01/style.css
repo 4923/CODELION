@@ -1,0 +1,58 @@
+.ball {
+    /* 
+    https://developer.mozilla.org/ko/docs/Web/CSS
+    
+    정렬: 좌측
+    너비: 60px, 높이: 60px 의 공간 생성
+    100% 테두리를 둥글게 하여 원형처럼 만든다.
+    
+    줄 간격: 60px
+    글자 크기: 28px
+    정렬: 중앙
+    세로정렬: 중앙
+    글자 굵기: 두껍게
+
+    색: #fff
+    그림자: 설정한대로, 그림자 색
+    우측 여백: 6px 절대여백
+    */
+
+    /* 배경 */
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    
+    /* 글자 */
+    line-height: 60px;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+    
+    /* 꾸미기 */
+    color: #fff;
+    text-shadow: 0px 0px 3px rgba(73, 57, 0, .8);
+    margin-right: 6px;
+}
+
+/* 이하 배경 색깔만 바꾸기 */
+
+.ball1 {
+    background: #fbc400;
+}
+.ball2 {
+    background: #69c8f2;
+}
+.ball3 {
+    background: #ff7272;
+}
+.ball4 {
+    background: #aaa;
+}
+.ball5 {
+    background: #b0d840;
+}
+.ball6 {
+    background: #c7c7c7;
+}

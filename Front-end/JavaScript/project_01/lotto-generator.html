@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
     <title>LotteryNumberGenerator</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Your Lottery number is ...</h1>
@@ -23,7 +26,15 @@
 
         // sort ascending order and check
         lottoArray.sort((a,b)=>a-b)
-        document.write(lottoArray);
+        // document.write(lottoArray);
+
+        // Display each number as rotto ball
+        document.write("<div class='ball ball1'>" + lottoArray[0] + "</div>");
+        document.write("<div class='ball ball2'>" + lottoArray[1] + "</div>");
+        document.write("<div class='ball ball3'>" + lottoArray[2] + "</div>");
+        document.write("<div class='ball ball4'>" + lottoArray[3] + "</div>");
+        document.write("<div class='ball ball5'>" + lottoArray[4] + "</div>");
+        document.write("<div class='ball ball6'>" + lottoArray[5] + "</div>");
     </script>
 </body>
 </html>
